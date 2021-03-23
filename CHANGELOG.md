@@ -4,6 +4,13 @@
 
 [1]: https://www.npmjs.com/package/gax-nodejs?activeTab=versions
 
+### [2.11.3](https://www.github.com/googleapis/gax-nodejs/compare/v2.11.2...v2.11.3) (2021-03-23)
+
+
+### Bug Fixes
+
+* imports for node-fetch when using webpack ([#972](https://www.github.com/googleapis/gax-nodejs/issues/972)) ([505c6b8](https://www.github.com/googleapis/gax-nodejs/commit/505c6b8a3a53f1875617a2258869e4646a0e439b))
+
 ### [2.11.2](https://www.github.com/googleapis/gax-nodejs/compare/v2.11.1...v2.11.2) (2021-03-11)
 
 
