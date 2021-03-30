@@ -47,7 +47,8 @@ if (needTextEncoderPolyfill) {
 
 import * as protobuf from 'protobufjs';
 import * as gax from './gax';
-import nodeFetch from 'node-fetch';
+//import nodeFetch from 'node-fetch';
+const nodeFetch = require('node-fetch').default;
 import {Response as NodeFetchResponse} from 'node-fetch';
 import * as routingHeader from './routingHeader';
 import {AbortController as NodeAbortController} from 'abort-controller';
